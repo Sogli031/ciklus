@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- AGP 8.7.3 is pinned by workspace policy, so version nagging is not actionable here. -->
+    <issue id="GradleDependency" severity="ignore" />
+    <!-- Reported only inside the Google HTTP client JAR; not fixable from app source. -->
+    <issue id="TrustAllX509TrustManager" severity="ignore" />
+</lint>
